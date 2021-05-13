@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<title></title>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header class="header">
+<h1 class="header__title">タイトル</h1>
+<p class="header__description">文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章</p>
+</header>
+
+
+<main id="app">
+	<table class="inputTable">
+		<tr>
+			<th>日付</th>
+			<td><input type="date" v-model="xxxxxx"></td>
+		</tr>
+		<tr>
+			<th>テキスト</th>
+			<td><input type="text" v-model="xxxxxx"></td>
+		</tr>
+		<tr>
+			<th>数字専門</th>
+			<td><input type="number" v-model="xxxxxx"></td>
+		</tr>
+		<tr>
+			<th>プルダウン</th>
+			<td>
+				<label>
+					<select class="formSelect" v-model="xxxxxx">
+						<option value="文字文字文字">文字文字文字</option>
+						<option value="文字文字文字">文字文字文字</option>
+						<option value="文字文字文字">文字文字文字</option>
+					</select>
+				</label>
+			</td>
+		</tr>
+	</table>
+
+	<div class="result">
+		<p>結果結果結果結果</p>
+	</div><!-- .result -->
+
+	<div class="btns">
+		<p class="tweetLink"><a target="_blank" v-bind:href="xxxxx"><i class="fa fa-twitter"></i> ツイートする</a>
+		</p>
+	</div><!-- .btns -->
+</main><!-- #app -->
+
+
+
+<script src="https://unpkg.com/vue@next"></script>
+<script src="app.js"></script>
+</body>
+</html>
